@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bson (4.0.0)
+    bson_ext (1.5.1)
+    colorize (0.7.7)
+    mongo (2.2.1)
+      bson (~> 4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  colorize
+  mongo (~> 2.1)
