@@ -9,7 +9,7 @@ Here are the command line options:
         -d, --db db                      Database to inspect for size/existence
         -s, --refresh_seconds SECONDS    Number of seconds to sleep before refresh
 
-Here is what it looks like pointed at a 2-node cluster:
+Here is what it looks like pointed at a 3-node replica set:
 
 ![demo screenshot](demo.png)
 
@@ -33,5 +33,6 @@ As a side note, the cookbooks I used for running mongodb on my Ubuntu EC2 instan
 * yum 3.8.2
 * yum-epel 0.6.5
 
-The yum and yum-epel cookbooks are needed to satisfy the mongodb cookbook's dependencies, though they're obviously not used on Ubuntu.
+The yum and yum-epel cookbooks are needed to satisfy the mongodb cookbook's dependencies, even though they aren't used.
+
 
